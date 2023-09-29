@@ -1,0 +1,25 @@
+{
+  "name": "@blockquote-playground/new-cem-analyzer",
+  "version": "0.0.1",
+  "description": "Generate custom element manifest with @lit-labs/gen-manifest",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "@lit-labs/gen-manifest",
+    "custom-elements"
+  ],
+  "bin": {
+    "newcem": "./bin/cem.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@lit-labs/analyzer": "^0.9.2",
+    "@lit-labs/gen-manifest": "^0.2.5",
+    "@lit-labs/gen-utils": "^0.2.4",
+    "@blockquote/to-markdown": "^0.1.0"
+  },
+  "customElements": "custom-elements.json"
+}
